@@ -1,0 +1,24 @@
+.imgzzv{
+	
+	width: 100%;
+}
+body{
+         font-family: Arial, Helvetica, sans-serif;
+	background-image: url(http://cdn.tumo.org/activity/web/phase-2/using-css-style-html-elements/exercise/bg/35.png) ;
+}
+
+.bg-warningg{
+	margin-top:20px;
+background-color:  #827d6f;
+
+}
+.morecolor2
+{
+	background:#f8f9fa;
+}
+.marginfoot{
+margin-top:40px;
+}
+.prev{
+	background-color: grey;
+}
