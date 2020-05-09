@@ -22,3 +22,64 @@ margin-top:40px;
 .prev{
 	background-color: grey;
 }
+.orderstext{
+	font-size: 25px;
+	border-bottom: 1px solid #ccc;
+}
+.myacount{
+	 
+	 height: 100%;
+	 background-color: #e2e4ee;
+	
+	 margin: 10px;
+}
+.orderacount
+{
+	color: #d9dbe2;
+	width: 90%;
+}
+.blacktext
+{
+	color: black;
+}
+.mywishlist{
+	margin: 10px;
+}
+.usernkar{
+	border-radius: 50%;
+	color: white;
+	float: left;
+	margin: 10px;
+}
+.user{
+	color: white;
+}
+.infop{
+	font-size: 11px;
+    margin-top: 5px;
+    color: #999;
+}
+.infop2{
+	font-size: 11px;
+    margin-top: 5px;
+    color: #999;
+}
+.margindown{
+	margin-bottom: 18px;
+	width: 100%;
+}
+.emailp{
+	margin: 35px;
+}
+.hcenter{
+text-align: center;
+}
+.borderrig{
+	border-right: 1px solid #a18f8f;
+}
+/*.eventheight{
+	height: 270px;
+}
+.recentheight{
+	height: 820px;
+}*/
