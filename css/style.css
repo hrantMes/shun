@@ -83,3 +83,20 @@ text-align: center;
 .recentheight{
 	height: 820px;
 }*/
+.cart{
+	text-decoration: none; 
+	color: black;
+}
+.marginc{
+	margin: 30px 0px 0px 0px;
+}
+.buy{
+
+	text-align: center;
+}
+.br{
+	border-radius: 6px;
+}
+.marginpx{
+	margin: 2px;
+}

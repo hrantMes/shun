@@ -39,7 +39,7 @@
             </div>
             <div class="col-lg-4 m-auto d-lg-block d-sm-none">
               <button type="button" class="btn btn-info col-lg-12">
-                Wishlist <span class="badge badge-dark bg-danger">3</span>
+                <a class="cart" href="cart.html">CART</a> <span class="badge badge-dark bg-danger">3</span>
               </button>  
             </div>          
           </div>
@@ -67,10 +67,9 @@
               My account
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Login</a>
-              <a class="dropdown-item" href="#">Register</a>
-              <a class="dropdown-item" href="myacount.html">My Orders</a>
-              <a class="dropdown-item" href="info.html">Account Settings</a>
+                <a href="" class="dropdown-item"   data-toggle="modal" data-target="#exampleModal">Login</a>
+               <a href="" class="dropdown-item"   data-toggle="modal" data-target="#exampleModal2">Register</a>
+              <a class="dropdown-item" href="myacount.html">Account Settings</a>
             </div>
           </div>  
         </div>      
@@ -85,6 +84,76 @@
 <!-- menu-end  --> 
 
  <!-- container begin -->
+   <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+   
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  
+ 
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">LOGIN</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Username</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+   
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Mail</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+   
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  
+ 
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">REGISTER</button>
+      </div>
+    </div>
+  </div>
+</div>
  <ol class="breadcrumb mt-3 col mr-auto">
             <li class="breadcrumb-item"><a href="myacount.html">My Acount</a></li>
             <li class="breadcrumb-item"><a href="info.html">Info</a></li>
@@ -98,14 +167,8 @@
       <div>
 
       <p class="blacktext emailp orderstext">  Profile</p>
-      <p> <a href="" class="blacktext">My Payment Options</a></p>
-      <p><a href="" class="blacktext">Gift / Rewards Card Balance</a></p>
-      <p><a href="" class="blacktext">My Events</a></p><br>
-      <p class="emailp orderstext">LINKS</p>
-      <p><a href="" class="blacktext"> My Orders </a></p>
-      <p> <a href="" class="blacktext">My Cart</a></p>
-      <p><a href="" class="blacktext">My Wish List</a></p>
-      <p><a href="" class="blacktext">My Events</a></p>
+      <p> <a href="#order" class="blacktext">My Orders</a></p>
+      
       </div>
     </div>
     <div class="col-lg-10">
@@ -130,7 +193,7 @@
 
       </div>
       <div class="col-lg-12">
-        <h1 class="hcenter">My Orders</h1>
+        <h1 class="hcenter" id="order">My Orders</h1>
 <div class="col-12 col-sm-12 col-md-12 product-card  p-2">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-4 col-lg-3">
