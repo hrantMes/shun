@@ -45,6 +45,9 @@ margin-top:40px;
 .mywishlist{
 	margin: 10px;
 }
+.mywishlist2{
+	margin-left:  10px;
+}
 .usernkar{
 	border-radius: 50%;
 	color: white;
@@ -99,4 +102,8 @@ text-align: center;
 }
 .marginpx{
 	margin: 2px;
+
+}
+.none{
+	text-decoration: none;
 }
