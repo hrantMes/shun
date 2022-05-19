@@ -1,109 +1,95 @@
-.imgzzv{
-	
-	width: 100%;
-}
-body{
-         font-family: Arial, Helvetica, sans-serif;
-	background-image: url(http://cdn.tumo.org/activity/web/phase-2/using-css-style-html-elements/exercise/bg/35.png) ;
+
+   body{
+    margin: 0px;
+   }
+  h1{
+    text-align: center;
+    background: gray;
+    margin: 0; 
+    padding: 0;
+
+  }
+  h2    {
+    text-align: center;
+  }
+table {
+
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.bg-warningg{
-	margin-top:20px;
-background-color:  #827d6f;
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.home{
+  background: #04AA6D;
+}
+
+ .container{
+  display: flex;
+ }
+.container1{
+  width:900px;
+  height: 400px; 
+}
+
+.div1{
+  height: 120px;
+
+  margin:0px 15px 15px 90px;
+  background: green;
+}
+.div2{
+  margin-right: 25px;
+  width: 100px;
+  height: 500px;
+  background: green;
 
 }
-.morecolor2
-{
-	background:#f8f9fa;
-}
-.marginfoot{
-margin-top:40px;
-}
-.prev{
-	background-color: grey;
-}
-.orderstext{
-	font-size: 25px;
-	border-bottom: 1px solid #ccc;
-}
-.myacount{
-	 
-	 height: 100%;
-	 background-color: #e2e4ee;
-	
-	 margin: 10px;
-}
-.orderacount
-{
-	color: #d9dbe2;
-	width: 90%;
-}
-.blacktext
-{
-	color: black;
-}
-.mywishlist{
-	margin: 10px;
-}
-.mywishlist2{
-	margin-left:  10px;
-}
-.usernkar{
-	border-radius: 50%;
-	color: white;
-	float: left;
-	margin: 10px;
-}
-.user{
-	color: white;
-}
-.infop{
-	font-size: 11px;
-    margin-top: 5px;
-    color: #999;
-}
-.infop2{
-	font-size: 11px;
-    margin-top: 5px;
-    color: #999;
-}
-.margindown{
-	margin-bottom: 18px;
-	width: 100%;
-}
-.emailp{
-	margin: 35px;
-}
-.hcenter{
-text-align: center;
-}
-.borderrig{
-	border-right: 1px solid #a18f8f;
-}
-/*.eventheight{
-	height: 270px;
-}
-.recentheight{
-	height: 820px;
-}*/
-.cart{
-	text-decoration: none; 
-	color: black;
-}
-.marginc{
-	margin: 30px 0px 0px 0px;
-}
-.buy{
 
-	text-align: center;
+.div3{
+  background: green;
+  width: 350px;
+  height: 500px;
+  margin-left: 25px;
 }
-.br{
-	border-radius: 6px;
+h4{
+  margin:15px;
 }
-.marginpx{
-	margin: 2px;
 
-}
-.none{
-	text-decoration: none;
-}
+
+
+
+
